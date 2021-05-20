@@ -1,0 +1,162 @@
+.papa1{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 1300px;
+	height: 800px;
+   background: orange;
+   border: black solid 5px;
+}
+.hijo1{
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	width: 480px;
+	height: 700px;
+ background: yellow;
+    border: black solid 5px;
+}
+.hijo2{
+  position: absolute;
+  top: 20px;
+  left: 700px;
+  width: 480px;
+  height: 700px;
+  background: yellow;
+    border: black solid 5px;
+}
+.nieto11{
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  background: orange;
+    border: black solid 5px;
+}
+.nieto12{
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  background: orange;
+    border: black solid 5px;
+}
+.nieto13{
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  width: 180px;
+  height: 180px;
+  background: orange;
+    border: black solid 5px;
+}
+.nieto14{
+    position: absolute;
+  top: 0px;
+  left: 150px;
+  width: 180px;
+  height: 180px;
+  background: orange;
+    border: black solid 5px;
+}
+
+@keyframes marcopolo{
+
+  100%{background: url(saitama.png); }
+}
+@keyframes marcopolos{
+
+  100%{background: url(all3.png); }
+}
+
+.nieto11:hover .nieto13{
+
+  animation-name: marcopolo;
+  animation-duration: 4s; 
+  animation-iteration-count: infinite;
+}
+.nieto12:hover .nieto14{
+
+  animation-name: marcopolos;
+  animation-duration: 4s; 
+  animation-iteration-count: infinite;
+}
+ 
+ .letrero{
+  position: absolute;
+  top: 300px;
+  left: 100px;
+font size: 30px; 
+  font-family:txt2;
+}
+@font-face{
+  font-family:txt2;
+  src: url(asian.ttf);
+}
+.nieto21{
+    position: absolute;
+  top: 20px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  background: orange;
+    border: black solid 5px;
+}
+.nieto22{
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+  background: orange;
+    border: black solid 5px;
+}
+.nieto23{
+    position: absolute;
+  top: 0px;
+  left: 150px;
+  width: 180px;
+  height: 180px;
+  background: orange;
+    border: black solid 5px;
+}
+.nieto24{
+      position: absolute;
+  top: 0px;
+  left: 150px;
+  width: 180px;
+  height: 180px;
+  background: orange;
+    border: black solid 5px;
+}
+.letrero2{
+ position: absolute;
+  top: 300px;
+  left: 100px;
+font size: 30px; 
+  font-family:txt2;
+}
+@keyframes girl{
+  
+  100%{background: url(fu.png); }
+
+}
+@keyframes girls{
+  
+  100%{background: url(na2.png); }
+
+}
+.nieto21:active .nieto23{
+  animation-name: girl;
+  animation-duration: 4s; 
+  animation-iteration-count: infinite;
+ 
+}
+.nieto22:active .nieto24{
+  animation-name: girls;
+  animation-duration: 4s; 
+  animation-iteration-count: infinite;
+ 
+}
